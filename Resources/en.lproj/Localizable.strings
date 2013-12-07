@@ -1,0 +1,106 @@
+"CalcError" = "Calc Error";
+"SyntaxError" = "Syntax Error";
+"Message" = "Message";
+"EvalError" = "Evaluation Error";
+"in line" = "in line ";
+"UnexpectedParenthesisAtPosition" = "Unexpected parenthesis/bracket at position";
+"CannotGraphExpression" = "Expression in 'eq' doesn't evaluate and cannot be graphed.";
+"infiniteLoopEncountered" = "infinite FOR loop encountered";
+
+"OK" = "OK";
+"GotIt" = "OK, got it";
+
+/* Welcome */
+"Welcome" = "Welcome.";
+"WelcomeMsg" = "Thank you for choosing ND1.\nPlease make a choice of calculator mode. (It can always be changed in the 'Settings' app later.)\nIf you have owned an HP RPN calculator, we recommend \"Classic\".\nOtherwise, go with \"Modern\".\n\nPlease visit naivedesign.com/ND1 on your computer right now, and do the \"Quick Tour\" to get to know your new calculator.";
+"PleaseDoQuickTour" = "Please do the \"Quick Tour\" at http://naivedesign.com/ND1";
+"Classic" = "Classic";
+"Modern" = "Modern";
+
+/* ND0 */
+"ND0_Overview" = "RPN Graphing Calculator";
+
+/* Tips */
+"GraphingTips" = "Graphing Tips";
+"GraphingTip" = "Tap ✓ to return to stack display.\n\nTwo-finger drag to pan, and pinch to zoom.\nTwo-finger tap to take a screenshot.\nDrag to trace. Tap to add trace point to stack.\nDouble-tap to go fullscreen.";
+"DefinitionTips" = "Calculator Definition Tips";
+"DefinitionTip" = "Here you can change keys and menus.\nKnow that deleting or creating new keys will change the overall layout.\n\nYou can always revert to the original definitions by selecting 'Restore' at the bottom of this list.";
+"MyDataTips" = "Database Tips";
+"MyDataTip" = "Here's your database.\nIt's accessed from the calculator with the 'vars' key.\nYou can create and edit folders and their contents: variables, data (tables, text, etc.), functions, programs, assets.\nYou can also share entire folders via the network.";
+"CustomSkinTips" = "Custom Skin Tip";
+"CustomSkinTip" = "You selected your own skin.\nYou need some icons now. Go to the 'My Skin' folder in the database, tap 'Sharing' and 'Download Assets', to pick up some icon files from our server.\nWhen you're ready, replace our links with yours to use your own icons, and download them via 'Download Assets'.";
+
+/* Emailing stack */
+"MyStack" = "My Stack";
+
+/* Calculator detail view */
+"nEntriesText" = "# entries:";
+
+/* Web View */
+"SwitchingToFullView" = "Switching to Full View";
+"DoubleTapToComeBack" = "Double-tap to come back to the calculator.\nTap 'Understood' to not see this hint again.";
+"DontTellMeAgain" = "Understood";
+
+/* Error msgs */
+"invalidDimensionsForData" = "invalid dimensions for given data";
+"hexDataExpected" = "image data expected in hexadecimal format";
+"SyntaxErrorInLine" = "('Select All' and enter again to see error location.)\n\nError in line: ";
+"resultTooLarge" = "result too large";
+
+/* Tab Bar */
+"CalculatorDefinition" = "Definition";
+
+/* Browse views */
+"CreditsNotes" = "Credits & Notes";
+
+/* User Category */
+"Downloadables" = "Downloadables";
+"SharedFolders" = "Shared Folders";
+"SharedCalculators" = "Calculators/Tools";
+"Updates" = "Updates";
+"Available Folders" = "Available Folders";
+"ReachedFolderDownloadLimit" = "You reached the folder download limit in ND0.\nFor unlimited folder downloading, please consider buying ND1.";
+
+/* User Category Add view */
+"Add Category" = "Add Folder";
+"AddCategoryPlaceholder" = "Folder Name";
+
+/* User Category detail view */
+"OverviewPlaceholder" = "Description";
+
+/* User Data Details */
+"Name" = "Name";
+"NamePlaceholder" = "New Name";
+"Definition" = "Definition";
+"DefinitionPlaceholder" = "Definition (Datum or Function)";
+"Comment" = "Comment";
+"CommentPlaceholder" = "Comment";
+
+/* Special var store comments */
+"CurrentEQ" = "Current Equation";
+"PlotParams" = "Plot Params";
+"StatData" = "Statistical Data";
+"StatParams" = "Stat. Params";
+
+/* Sharing dialog */
+"Email" = "Email";
+"EmailText" = "Hi,\n\nFind attached the data for";
+"ErrorOccurred" = "An Error Occurred";
+"NoClientID" = "No Client ID\n";
+"BadJSON" = "Bad JSON data. Please correct, then try again.";
+"ResourceNotFound" = "Data not available on server.";
+"PageNotFound" = "Data not available on server.";
+"PleaseUpload" = "please upload data first";
+"AlternativeDownload" = "Alternative Download";
+"TryPublic" = "Do you want to try downloading a public version of this data?";
+"VisibleToThePublic" = "Visible to All";
+"CustomURL" = "Custom Sharing URL";
+"Upload" = "Upload";
+"Download" = "Download";
+"DownloadAssets" = "Download Assets";
+"CancelDownloadAssets" = "Cancel Active Downloads";
+"LastUploadedOn" = "Last uploaded on";
+"DirectConnect" = "Direct Connect";
+"Restore" = "Restore";
+"RestoreCalculator" = "Restore Calculator";
+"RestoreWarning" = "Warning: All changes you made will be lost!";

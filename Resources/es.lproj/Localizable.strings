@@ -1,0 +1,261 @@
+"CalcError" = "Error de Cálculo";
+"SyntaxError" = "Error de Sintaxis";
+"Message" = "Mensaje";
+"EvalError" = "Error de Evaluación";
+"in line" = "en la línea ";
+"UnexpectedParenthesisAtPosition" = "Paréntesis/Corchete inesperado en la posición";
+"CannotGraphExpression" = "La expresión en 'eq' no es evaluable y no puede ser graficada.";
+
+"OK" = "OK";
+"GotIt" = "OK";
+"No" = "No";
+"Yes" = "Si";
+
+"rpn:" = "rpn:";
+"alg:" = "alg:";
+
+/* Welcome */
+"Welcome" = "Bienvenido.";
+"WelcomeMsg" = "";
+"PleaseDoQuickTour" = "Por favor realize el \"Quick Tour\" en http://naivedesign.com/ND1";
+"Classic" = "Clásica";
+"Modern" = "Moderna";
+
+/* ND0 */
+"ND0_Overview" = "Calculadora Gráfica RPN";
+
+/* Tips */
+"GraphingTips" = "Consejos para graficar";
+"GraphingTip" = "Toque ✓ para volver a la vista de la pila.\n\nArrastre con dos dedos para desplazar; pellizcar para zoom.\nToque con dos dedos para tomar una foto de la pantalla.\nArrastre para trazar. Toque para añadir el punto de traza a la pila.\nToque dos veces para ampliar la pantalla.";
+"DefinitionTips" = "Consejos para la personalización de la calculadora";
+"DefinitionTip" = "Aquí puede modificar la apariencia y contenido de las teclas y menús.\nDebe saber que borrar teclas o crear nuevas cambiará la apariencia global.\n\nSiempre podrá volver al estado original seleccionando 'Restaurar' al final de la lista.";
+"MyDataTips" = "Consejos sobre la Base de Datos";
+"MyDataTip" = "Estos son sus datos.\nSe acceden desde la calculadora mediante la tecla vars.\nPuede crear y modificar directorios y su contenido: variables, datos (tablas, texto, etc.), funciones, programas, objetos.\nTambién puede compartir directorios completos a través de la red.";
+"CustomSkinTips" = "Consejos para la personalización del tema";
+"CustomSkinTip" = "Seleccionó su propio tema.\nAhora necesita algunos iconos. Vaya al directorio 'Mi Tema' en la base de datos, pulse 'Compartiendo' y 'Descargar Objetos', para obtener algunos archivos de nuestro servidor.\nCuando esté listo, reemplaze nuestos links por los suyos para usar sus propios iconos, y descárgelos vía 'Descargar Objetos'.";
+
+/* Emailing stack */
+"MyStack" = "Mi Pila";
+
+/* Calculator detail view */
+"# functions:" = "número de funciones:";
+"Add Calculator" = "Añadir Calculadora";
+
+/* Web View */
+"SwitchingToFullView" = "Cambiando a vista completa";
+"DoubleTapToComeBack" = "Presione dos veces para volver a la calculadora.\nPresione 'Entendido' para no volver a ver este consejo.";
+"DontTellMeAgain" = "Entendido";
+
+/* Error msgs */
+"Error" = "Error";
+"Program execution error" = "Error en la ejecución del Programa";
+"Detail" = "Detalle";
+"too few arguments on stack" = "número de argumentos insuficiente en la pila";
+"incorrect count of arguments on stack" = "Número incorrecto de argumentos en la pila";
+"bad arg" = "argumento equivocado";
+"input is not a URL" = "la entrada no es una URL";
+"invalid arg" = "argumento inválido";
+"nonexistent PPAR variable" = "la variable PPAR no existe";
+"no equation set (nonexistent eq variable)" = "la ecuación no está definida (la variable 'eq' no existe)";
+"wrong type of argument" = "el tipo de los argumentos no es correcto";
+"requires display of a graphic" = "se requiere mostrar un gráfico";
+"unsupported arg" = "argumento no soportado";
+"unimplemented for binary word size of 32 bits; use smaller word" = "no implementado para palabras binarias de 32 bits; use un tamaño inferior";
+"incompatible dimensions" = "dimensiones incompatibles";
+"unsupported arg type" = "tipo de argumento no soportado";
+"bad index" = "índice inválido";
+"zero determinant; cannot divide" = "el determinante es cero; no puedo dividir";
+"zero determinant; cannot compute inverse" = "el determinante es cero; no puedo invertir";
+"bad arg 1: not a matrix" = "El argumento no es una matriz";
+"matrix not square" = "la matriz no es cuadrada";
+"nonexistent ∑DAT" = "∑DAT no existe";
+"bad arg: not a matrix" = "El argumento no es una matriz";
+"invalid variable name: " = "nombre de variable inválido: ";
+"undefined name: " = "nombre sin definir: ";
+"wrong parameter" = "parámetro equivocado";
+"invalid unit definition: " = "definición de unidad inválida: ";
+"unsupported unit definition(s): " = "definicion(es) de unidad no soportada(s): ";
+"units do not share the same SI unit" = "las unidades no comparten el mismo SI";
+"conversion unit(s) not defined." = "conversión de unidade(es) no definida(s)";
+"missing delimiter" = "delimitador no encontrado";
+"missing expression or program in \u2192 statement" = "falta expresión o programa en la sentencia \u2192";
+"missing IF" = "falta IF";
+"errant ELSE" = "ELSE ambiguo";
+"errant END" = "END ambiguo";
+"START lacks the 'from' and/or 'to' values on stack" = "START sin valores 'desde' y/o 'hasta' en la pila";
+"missing START" = "falta START";
+"missing END" = "falta END";
+"missing ELSE or END" = "falta ELSE o END";
+"missing REPEAT" = "falta REPEAT";
+"missing UNTIL" = "falta UNTIL";
+"infiniteLoopEncountered" = "se encontró un bucle FOR infinito";
+"unknown function" = "función desconocida";
+"incorrect syntax" = "sintaxis incorrecta";
+"invalidDimensionsForData" = "dimensiones invalidas de los datos";
+"hexDataExpected" = "se esperaba datos de imagen en formato hexadecimal";
+"SyntaxErrorInLine" = "('Seleccione Todo' y entre de nuevo para ver la localización del error.)\n\nError en la línea: ";
+"resultTooLarge" = "resultado demasiado grande";
+"interrupted" = "interrumpido";
+"required '=' missing in natural math definition" = "No se encontró el requerido '=' en la definición natural matemática";
+"missing closing parenthesis in natural math definition" = "falta el paréntesis de cierre en la definición natural matemática";
+
+/* Tab Bar */
+"CalculatorDefinition" = "Definición";
+"Calculators" = "Calculadoras";
+"ND1 (Classic)" = "ND1 (Clásica)";
+"My Data" = "Mis Datos";
+
+/* Calculator Details */
+"Type" = "Tipo";
+"Mode" = "Modo";
+"RPN" = "RPN";
+"Normal" = "Normal";
+"Web Front-end" = "Web";
+"Interactive" = "Interactiva";
+"Skin" = "Apariencia";
+"Light" = "Luminosa";
+"Dark" = "Oscura";
+"Metal" = "Metálica";
+"Custom" = "Personal";
+"Default" = "Por defecto";
+"Orientation" = "Orientación";
+"Portrait" = "Vertical";
+"Landscape" = "Apaisada";
+"Any" = "Cualquiera";
+
+"Keys" = "Teclas";
+"Interface Elements" = "Elementos de Interfaz";
+"Add Key" = "Añadir Tecla";
+"Add Interface Element" = "Añadir Elemento de Interfaz";
+
+"Menus" = "Menús";
+"Add Menu" = "Añadir Menú";
+
+/* Key detail */
+"Key" = "Tecla";
+"Name" = "Nombre";
+"Function" = "Función";
+
+/* Menu detail */
+"Menu" = "Menú";
+"Title" = "Título";
+"Soft Keys" = "Teclas de función";
+"Names" = "Nombres";
+"Functions" = "Funciones";
+
+/* Browse views */
+"CreditsNotes" = "Créditos y Notas";
+"Injection" = "Inyección";
+"Sharing" = "Compartiendo";
+
+/* Photo view */
+"Photo" = "Foto";
+
+/* User Category */
+"Downloadables" = "Descargables";
+"SharedFolders" = "Directorios Compartidos";
+"SharedCalculators" = "Más Calculadoras";
+"Updates" = "Actualizaciones";
+"Available Folders" = "Diretorios Disponibles";
+"ReachedFolderDownloadLimit" = "Alcanzó el límite de descarga de directorios de ND0.\nPara eliminar el límite, considere por favor adquirir ND1.";
+
+/* User Category Add view */
+"Add Category" = "Añadir Directorio";
+"AddCategoryPlaceholder" = "Nombre del directorio";
+
+/* User Category detail view */
+"Entry" = "Entrada";
+"OverviewPlaceholder" = "Descripción";
+"nEntriesText" = "Entradas:";
+"Entries" = "Entradas";
+"Add Entry" = "Añadir Entrada";
+
+/* User Data Details */
+"Name" = "Nombre";
+"NamePlaceholder" = "Nuevo Nombre";
+"Definition" = "Definición";
+"DefinitionPlaceholder" = "Definición (Dato o Función)";
+"Comment" = "Comentario";
+"CommentPlaceholder" = "Comentario";
+
+/* Special var store comments */
+"Key Icon" = "Icono de la tecla";
+"Current Equation" = "Ecuación actual";
+"Plot Params" = "Parámetros de Gráfica";
+"Statistical Data" = "Datos Estadísticos";
+"Stat. Params" = "Parámetros Estadísticos";
+
+/* Sharing dialog */
+"Email" = "email";
+"EmailText" = "Hola,\n\nAdjunto se encuentran los datos de";
+"ErrorOccurred" = "Ocurrió un error";
+"NoClientID" = "Falta el ID del cliente\n";
+"BadJSON" = "datos JSON incorrectos. Por favor corrija e inténtelo de nuevo.";
+"ResourceNotFound" = "Datos no disponibles en el servidor.";
+"PageNotFound" = "Datos no disponibles en el servidor.";
+"PleaseUpload" = "Por favor suba los datos antes";
+"AlternativeDownload" = "Descarga Alternativa";
+"TryPublic" = "¿Desea probar la descarga de una versión pública de estos datos?";
+"VisibleToThePublic" = "Visible al Público";
+"CustomURL" = "URL personal para compartir";
+"Upload" = "Subida";
+"Download" = "Descarga";
+"DownloadAssets" = "Descargar Objetos";
+"CancelDownloadAssets" = "Cancelar las descargas activas";
+"LastUploadedOn" = "Ultima subida en";
+"DirectConnect" = "Conexión Directa";
+"Restore" = "Restaurar";
+"RestoreCalculator" = "Restaurar la calculadora";
+"RestoreWarning" = "Atención: ¡Todos los cambios que realizó se perderán!";
+
+/* DB translations */
+"Help" = "Ayuda";
+"My Skin" = "Mi Tema";
+"Custom Skin" = "Tema Personal";
+"My Vars" = "Mis Variables";
+"Default Variable Store" = "Almacén de Variables por Defecto";
+"Project X" = "Proyecto X";
+"An example collection of data" = "Un conjunto de datos de ejemplo";
+"Stocks" = "Población";
+"Quotes and Symbols" = "Comillas y Símbolos";
+"Units" = "Unidades";
+"Units Used for Conversions" = "Unidades usadas para conversiones";
+"APConstants" = "Constantes AP";
+"Arbitrary Precision Constants" = "Constantes de precisión arbitraria";
+"Constants" = "Constantes";
+"Physical Constants" = "Constantes Físicas";
+"Const" = "Const";
+"Examples" = "Ejemplos";
+"RPL + JavaScript Programming Examples" = "Ejemplos de programación RPL + JavaScript";
+"From HP-28S User's Manual" = "Del manual de usuario de la HP-28S ";
+"More Graphing Functions" = "Más Fuciones Gráficas";
+"Bessel Functions" = "Funciones de Bessel";
+"Tools" = "Herramientas";
+"Utility Functions" = "Funciones Utilitarias";
+"Bench" = "Banco";
+"Timing Functions" = "Funciones de tiempo";
+"Bills" = "Cuentas";
+"Sum up your bills" = "Sume sus cuentas";
+"Color" = "Color";
+"Color type and functions" = "Tipo y funciones de Color";
+"Chem" = "Química";
+"Chemical formula type and functions" = "Tipo y funciones de Fórmulas Químicas ";
+"Plot" = "Grafica";
+"More Graphing Functions" = "Más Funciones Gráficas";
+"Special Functions" = "Funciones Especiales";
+"Bessel Functions" = "Funciones de Bessel";
+"Programming Speed Tests" = "Programando tests de velocidad";
+"Niven Number Hunt" = "Caza del Número Niven";
+
+"Key Icon" = "Icono de la tecla";
+"Key Icon (pressed)" = "Icono de la tecla (presionado)";
+"Alt-Key Icon" = "Icono de Alt-Tecla";
+"Alt-Key Icon (pressed)" = "Icono de Alt-Tecla (presionado)";
+"Background Image" = "Imagen de fondo";
+"Change this to your URL" = "Cambie esto a su URL";
+"My calculator background" = "Mi fondo de calculadora";
+
+"Mortgage" = "Hipoteca";
+"Calculate Payments" = "Calcular Pagos";
+"Unicodes" = "Unicodes";
+"Characters and Codes" = "Caracteres y códigos tipográficos";

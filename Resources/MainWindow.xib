@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="3" id="34"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" resizesToFullScreen="NO" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="95"/>
+        </window>
+        <tabBarController id="14">
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <tabBar key="tabBar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="15">
+                <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+            </tabBar>
+            <viewControllers>
+                <navigationController id="20">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Calculators" image="multi.png" id="24"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="22">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="21" customClass="CalculatorListTableViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="Navigation Item" id="23"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <viewController title="Calculator" id="35" customClass="JS_CalcViewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Current" image="one.png" id="36"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController id="43">
+                    <webView key="view" contentMode="scaleToFill" keyboardDisplayRequiresUserAction="NO" id="44">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <dataDetectorType key="dataDetectorTypes"/>
+                        <connections>
+                            <outlet property="delegate" destination="3" id="46"/>
+                        </connections>
+                    </webView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Help" image="questionMark.png" id="42"/>
+                    <toolbarItems/>
+                </viewController>
+                <navigationController id="25">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="My Data" image="db.png" id="29"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="27">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="26" customClass="UserDataCategoryListTableViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="Functions" id="28">
+                                <barButtonItem key="backBarButtonItem" title="Conversion" id="32"/>
+                            </navigationItem>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+            </viewControllers>
+            <connections>
+                <outlet property="delegate" destination="3" id="41"/>
+            </connections>
+            <point key="canvasLocation" x="-491" y="89"/>
+        </tabBarController>
+        <customObject id="3" userLabel="Calculate App Delegate" customClass="CalculateAppDelegate">
+            <connections>
+                <outlet property="calcViewController" destination="35" id="38"/>
+                <outlet property="calculatorListController" destination="21" id="39"/>
+                <outlet property="helpWebView" destination="44" id="45"/>
+                <outlet property="tabBarController" destination="14" id="31"/>
+                <outlet property="userDataCategoryListController" destination="26" id="40"/>
+                <outlet property="window" destination="2" id="5"/>
+            </connections>
+        </customObject>
+    </objects>
+    <resources>
+        <image name="db.png" width="32" height="32"/>
+        <image name="multi.png" width="32" height="32"/>
+        <image name="one.png" width="32" height="32"/>
+        <image name="questionMark.png" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

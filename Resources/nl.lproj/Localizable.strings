@@ -1,0 +1,261 @@
+"CalcError" = "Calc Fout";
+"SyntaxError" = "Syntaxfout";
+"Message" = "Boodschap";
+"EvalError" = "Evaluatiefout";
+"in line" = "in regel ";
+"UnexpectedParenthesisAtPosition" = "Onverwacht haakje op positie";
+"CannotGraphExpression" = "Expressie in 'eq' evalueert niet en kan niet getekend worden.";
+
+"OK" = "OK";
+"GotIt" = "OK";
+"No" = "Nee";
+"Yes" = "Ja";
+
+"rpn:" = "rpn:";
+"alg:" = "alg:";
+
+/* Welcome */
+"Welcome" = "Welkom.";
+"WelcomeMsg" = "";
+"PleaseDoQuickTour" = "Doe s.v.p. de \"Quick Tour\" op http://naivedesign.com/ND1";
+"Classic" = "Klassiek";
+"Modern" = "Modern";
+
+/* ND0 */
+"ND0_Overview" = "RPN Grafische Calculator";
+
+/* Tips */
+"GraphingTips" = "Tips voor Grafieken";
+"GraphingTip" = "Klik ✓ om terug te gaan naar de weergave van de stack.\n\nSleep met twee vingers om te schuiven; knijp om te zoomen.\nKlik met twee vingers om een schermafbeelding te maken.\nSleep voor een trace. Klik om een tracepunt aan de stack toe te voegen.\nDubbelklik on naar een volledig scherm te gaan.";
+"DefinitionTips" = "Tips voor Calculator Definities";
+"DefinitionTip" = "Hier kun je de layout en de inhoud van de calculatortoetsen en menu's veranderen.\nLet op dat nieuwe toetsen toevoegen of toetsen verwijderen de complete layout zal veranderen.\n\nJe kunt altijd teruggaan naar de oorspronkelijke toestand door onderaan de lijst 'Herstel' te selecteren.";
+"MyDataTips" = "Tips voor de Database";
+"MyDataTip" = "Hier is je database.\nVanuit de calculator kun je deze bereiken via de vars toets.\nJe kunt mappen aanmaken en wijzigen en hun inhoud veranderen: variabelen, data (tabellen, tekst, etc.), functies, programma's, activa.\nJe kunt ook hele mappen via het netwerk opbergen of delen.";
+"CustomSkinTips" = "Tip Voor Eigen Skin";
+"CustomSkinTip" = "Je koos je eigen 'skin'.\nJe hebt nu wat icoontjes nodig. Ga naar de map 'Mijn Skin' in de database, klik 'Delen' en dan 'Download Activa' om icoonbestanden van onze server op te halen.\nAls je klaar bent vervang dan onze links door die van jou om je eigen icoontjes te gebruiken, en download ze via 'Download Activa'.";
+
+/* Emailing stack */
+"MyStack" = "Mijn Stack";
+
+/* Calculator detail view */
+"# functions:" = "aantal functies:";
+"Add Calculator" = "Voeg Calculator toe";
+
+/* Web View */
+"SwitchingToFullView" = "Schakel over naar Volledig Scherm";
+"DoubleTapToComeBack" = "Dubbelklik om terug te gaan naar de calculator.\nKlik 'Begrepen' om deze tip niet meer te zien.";
+"DontTellMeAgain" = "Begrepen";
+
+/* Error msgs */
+"Error" = "Error";
+"Program execution error" = "Fout in programmaexecutie";
+"Detail" = "Detail";
+"too few arguments on stack" = "te weinig argumenten op de stack";
+"incorrect count of arguments on stack" = "incorrect aantal argumenten op de stack";
+"bad arg" = "verkeerd argument";
+"input is not a URL" = "invoer is geen URL";
+"invalid arg" = "ongeldig arg";
+"nonexistent PPAR variable" = "niet-bestaande PPAR variabele";
+"no equation set (nonexistent eq variable)" = "geen vergelijkingsstelsel (niet-bestaande eq variabele)";
+"wrong type of argument" = "verkeerd type argument";
+"requires display of a graphic" = "vereist het vertonen van een grafiek";
+"unsupported arg" = "niet-ondersteund arg";
+"unimplemented for binary word size of 32 bits; use smaller word" = "niet geïmplementeerd voor binaire woordgrootte van 32 bits; gebruik kleiner woord";
+"incompatible dimensions" = "onverenigbare dimensies";
+"unsupported arg type" = "niet-ondersteund arg type";
+"bad index" = "verkeerde index";
+"zero determinant; cannot divide" = "determinant is 0; kan niet delen";
+"zero determinant; cannot compute inverse" = "determinant is 0; kan inverse niet berekenen";
+"bad arg 1: not a matrix" = "verkeerd arg 1: is geen matrix";
+"matrix not square" = "matrix is niet vierkant";
+"nonexistent ∑DAT" = "niet-bestaande ∑DAT";
+"bad arg: not a matrix" = "verkeerd arg: is geen matrix";
+"invalid variable name: " = "ongeldige variabele naam: ";
+"undefined name: " = "ongedefinieerde naam: ";
+"wrong parameter" = "verkeerde parameter";
+"invalid unit definition: " = "ongeldige definitie van eenheid: ";
+"unsupported unit definition(s): " = "niet-ondersteunde definitie(s) van eenheid: ";
+"units do not share the same SI unit" = "eenheden delen niet dezelfde SI-eenheid";
+"conversion unit(s) not defined." = "conversie eenheid/eenheden niet gedefinieerd";
+"missing delimiter" = "ontbrekend scheidingsteken";
+"missing expression or program in \u2192 statement" = "ontbrekende expressie of programma in \u2192 statement";
+"missing IF" = "ontbrekende IF";
+"errant ELSE" = "foutieve ELSE";
+"errant END" = "foutieve END";
+"START lacks the 'from' and/or 'to' values on stack" = "START mist de 'van' en/of 'tot' waarden op de stack";
+"missing START" = "ontbrekende START";
+"missing END" = "ontbrekende END";
+"missing ELSE or END" = "ontbrekende ELSE of END";
+"missing REPEAT" = "ontbrekende REPEAT";
+"missing UNTIL" = "ontbrekende UNTIL";
+"infiniteLoopEncountered" = "oneindige FOR lus aangetroffen";
+"unknown function" = "onbekende functie";
+"incorrect syntax" = "incorrecte syntax";
+"invalidDimensionsForData" = "ongeldige dimensies voor de gegeven data";
+"hexDataExpected" = "beelddata verwacht in hexadecimaal formaat";
+"SyntaxErrorInLine" = "('Selecteer Alles' en enter opnieuw om de plaats van de fout te zien.)\n\Fout in regel: ";
+"resultTooLarge" = "resultaat te groot";
+"interrupted" = "Invoer afgebroken";
+"required '=' missing in natural math definition" = "verplchte '=' ontbrekend in natuurlijke wiskunde definitie";
+"missing closing parenthesis in natural math definition" = "ontbrekend sluithaakje in natuurlijke wiskunde definitie";
+
+/* Tab Bar */
+"CalculatorDefinition" = "Definitie";
+"Calculators" = "Calculators";
+"ND1 (Classic)" = "ND1 (Klassiek)";
+"My Data" = "Mijn Data";
+
+/* Calculator Details */
+"Type" = "Type";
+"Mode" = "Mode";
+"RPN" = "RPN";
+"Normal" = "Normaal";
+"Web Front-end" = "Web";
+"Interactive" = "Interactieve";
+"Skin" = "Skin";
+"Light" = "Licht";
+"Dark" = "Donker";
+"Metal" = "Metaal";
+"Custom" = "Eigen";
+"Default" = "Default";
+"Orientation" = "Orientatie";
+"Portrait" = "Portret";
+"Landscape" = "Landschap";
+"Any" = "Ieder";
+
+"Keys" = "Toetsen";
+"Interface Elements" = "Interface Elementen";
+"Add Key" = "Voeg Toets toe";
+"Add Interface Element" = "Voeg Interface Element toe";
+
+"Menus" = "Menu's";
+"Add Menu" = "Voeg Menu toe";
+
+/* Key detail */
+"Key" = "Toets";
+"Name" = "Naam";
+"Function" = "Functie";
+
+/* Menu detail */
+"Menu" = "Menu";
+"Title" = "Titel";
+"Soft Keys" = "Programmeerbare Toetsen";
+"Names" = "Namen";
+"Functions" = "Functies";
+
+/* Browse views */
+"CreditsNotes" = "Credits & Opmerkingen";
+"Injection" = "Injectie";
+"Sharing" = "Delen";
+
+/* Photo view */
+"Photo" = "Foto";
+
+/* User Category */
+"Downloadables" = "Downloadables";
+"SharedFolders" = "Gedeelde Mappen";
+"SharedCalculators" = "Meer Rekenmachines";
+"Updates" = "Updates";
+"Available Folders" = "Beschikbare Mappen";
+"ReachedFolderDownloadLimit" = "Je hebt de limiet voor het downloaden van mappen in ND0 bereikt.\nVoor onbeperkt downloaden van mappen, overweeg s.v.p. het kopen van ND1.";
+
+/* User Category Add view */
+"Add Category" = "Voeg Map toe";
+"AddCategoryPlaceholder" = "Naam van Map";
+
+/* User Category detail view */
+"Entry" = "Entry";
+"OverviewPlaceholder" = "Beschrijving";
+"nEntriesText" = "Entries:";
+"Entries" = "Entries";
+"Add Entry" = "Voeg Entry toe";
+
+/* User Data Details */
+"Name" = "Naam";
+"NamePlaceholder" = "Nieuwe Naam";
+"Definition" = "Definitie";
+"DefinitionPlaceholder" = "Definitie (Gegeven or Functie)";
+"Comment" = "Commentaar";
+"CommentPlaceholder" = "Commentaar";
+
+/* Special var store comments */
+"Key Icon" = "Toets-icoon";
+"Current Equation" = "Huidige Vergelijking";
+"Plot Params" = "Plot Params";
+"Statistical Data" = "Statistische Data";
+"Stat. Params" = "Stat. Params";
+
+/* Sharing dialog */
+"Email" = "Email";
+"EmailText" = "Hallo,\n\nBijgesloten vind je de data voor";
+"ErrorOccurred" = "Een fout is opgetreden";
+"NoClientID" = "Geen Client ID\n";
+"BadJSON" = "Verkeerde JSON data. Corrigeer s.v.p en probeer daarna opnieuw.";
+"ResourceNotFound" = "Data niet beschikbaar op de server.";
+"PageNotFound" = "Pagina niet beschikbaar op de server.";
+"PleaseUpload" = "data s.v.p. eerst uploaden";
+"AlternativeDownload" = "Alternatieve Download";
+"TryPublic" = "Wil je een publieke versie van deze data proberen te downloaden?";
+"VisibleToThePublic" = "Zichtbaar voor het Publiek";
+"CustomURL" = "Eigen URL voor het delen";
+"Upload" = "Upload";
+"Download" = "Download";
+"DownloadAssets" = "Download Activa";
+"CancelDownloadAssets" = "Annuleer Actieve Downloads";
+"LastUploadedOn" = "Laaats geüploaded op";
+"DirectConnect" = "Directe Verbinding";
+"Restore" = "Herstel";
+"RestoreCalculator" = "Herstel Calculator";
+"RestoreWarning" = "Waarschuwing: alle veranderingen die je gemaakt hebt zullen verloren gaan!";
+
+/* DB translations */
+"Help" = "Help";
+"My Skin" = "Mijn Skin";
+"Custom Skin" = "Eigen Skin";
+"My Vars" = "Mijn Vars";
+"Default Variable Store" = "Default Variabele-opslag";
+"Project X" = "Projekt X";
+"An example collection of data" = "Een voorbeeldverzameling gegevens";
+"Stocks" = "Aandelen";
+"Quotes and Symbols" = "Koersen en Symbolen";
+"Units" = "Eenheden";
+"Units Used for Conversions" = "Eenheden gebruikt voor Conversies";
+"APConstants" = "APConstanten";
+"Arbitrary Precision Constants" = "Constanten met willekeuruge precisie";
+"Constants" = "Constanten";
+"Physical Constants" = "Fysische Constanten";
+"Const" = "Const";
+"Examples" = "Voorbeelden";
+"RPL + JavaScript Programming Examples" = "RPL + JavaScript Programmeervoorbeelden";
+"From HP-28S User's Manual" = "Uit de HP-28S Handleiding";
+"More Graphing Functions" = "Meer Grafiekfuncties";
+"Bessel Functions" = "Bessel Functies";
+"Tools" = "Hulpmiddelen";
+"Utility Functions" = "Hulpmiddelfuncties";
+"Bench" = "Bench";
+"Timing Functions" = "Timing Functies";
+"Bills" = "Rekeningen";
+"Sum up your bills" = "Tel je rekeningen op";
+"Color" = "Kleur";
+"Color type and functions" = "Kleurtype en -functies";
+"Chem" = "Chem";
+"Chemical formula type and functions" = "Chemische formuletype en -functies";
+"Plot" = "Plot";
+"More Graphing Functions" = "Meer Grafiekfuncties";
+"Special Functions" = "Speciale Functies";
+"Bessel Functions" = "Bessel Functies";
+"Programming Speed Tests" = "Snelheidtests";
+"Niven Number Hunt" = "Niven Getallen Zoeken";
+
+"Key Icon" = "Toets-icoon";
+"Key Icon (pressed)" = "Toets-coon (ingedrukt)";
+"Alt-Key Icon" = "Alt-Toets-icoon";
+"Alt-Key Icon (pressed)" = "Alt-Toets-icoon (ingedrukt)";
+"Background Image" = "Achtergrondbeeld";
+"Change this to your URL" = "Verander dit in jouw URL";
+"My calculator background" = "Mijn calculatorachtergrond";
+
+"Mortgage" = "Hypotheek";
+"Calculate Payments" = "Bereken Betalingen";
+"Unicodes" = "Unicodes";
+"Characters and Codes" = "Typographische Chars en Codes";

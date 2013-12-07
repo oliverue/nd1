@@ -1,0 +1,256 @@
+"CalcError" = "Calc Error";
+"SyntaxError" = "Erreur de syntaxe";
+"Message" = "Message";
+"EvalError" = "Erreur d'évaluation";
+"in line" = "à la ligne";
+"UnexpectedParenthesisAtPosition" = "Parenthèse/crochet non attendu à la position";
+"CannotGraphExpression" = "L'expression dans 'eq' ne peut être évaluée et représentée.";
+
+"OK" = "OK";
+"GotIt" = "OK";
+"No" = "Non";
+"Yes" = "Oui";
+
+"rpn:" = "rpn:";
+"alg:" = "alg:";
+
+/* Welcome */
+"Welcome" = "Bienvenu.";
+"WelcomeMsg" = "";
+"PleaseDoQuickTour" = "Veillez à voir le \"Quick Tour\" at http://naivedesign.com/ND1";
+"Classic" = "Classique";
+"Modern" = "Moderne";
+
+/* ND0 */
+"ND0_Overview" = "Calculatrice Graphique RPN";
+
+/* Tips */
+"GraphingTips" = "Tuyaux pour les graphes";
+"GraphingTip" = "Faites 'Espace' (la touche en bas à gauche) pour retourner à la pile.\n\nFrottez avec deux doigts pour faire glisser; pincez pour zoomer.\nTapotez avec deux doigts pour une copie d'écran.\nBalayez pour tracer. Tapoter pour ajouter un point traçant dans la pile.\nDouble tapoti pour le plein écran.";
+"DefinitionTips" = "Tuyaux pour les Définitions";
+"DefinitionTip" = "Ici, vous pouvez changer la disposition et la fonctionalité des touches et menus.\nSachez qu'éffacer ou créer des nouvelles touches changera la disposition de l'ensemble des touches.\n\nVous pouvez toujours revenir à l'état initial en sélectionant 'Restaurer' en bas de la liste.";
+"MyDataTips" = "Tuyaux pour les bases de données";
+"MyDataTip" = "Voici votre base de donnée.\nOn y accède par la touche vars.\nVous pouvez créer et éditer les dossiers et leurs contenus: variables, données (tables, textes, etc.), fonctions, programmes.\nVous pouvez aussi sauvegarder et partager des dossiers entiers par le réseau.";
+"CustomSkinTips" = "Tuyaux pour personaliser le théme";
+"CustomSkinTip" = "Vous avez choisi votre propre thème.\nVous avez maintenant besoin d'icônes. Allez dans le dossier 'Mon Thème' de la base de donnée, faire 'Partage' and 'Télécharger les données', pour télécharger des icônes depuis notre serveur.\nQuand vous êtes prêt, remplacez nos liens avec les vôtres pour utiliser vos icônes que trouverer dans 'Télécharger les données'.";
+
+/* Emailing stack */
+"MyStack" = "Ma Pile";
+
+/* Calculator detail view */
+"nEntriesText" = "# entrées:";
+"Add Calculator" = "Ajouter une Calculatrice";
+
+/* Web View */
+"SwitchingToFullView" = "Basculement vers le navigateur";
+"DoubleTapToComeBack" = "Double tapoti pour revenir à la calculatrice.\nFaites 'Compris' pour ne pas revoir ce message.";
+"DontTellMeAgain" = "Compris";
+
+/* Error msgs */
+"Error" = "Erreur";
+"Program execution error" = "Erreur d'éxécution du programme";
+"Detail" = "Détail";
+"too few arguments on stack" = "pas assez d'arguments dans la pile";
+"incorrect count of arguments on stack" = "comptent incorrect d'arguments sur la pile";
+"bad arg" = "mauvais argument";
+"input is not a URL" = "ce n'est pas une URL";
+"invalid arg" = "argument invalide";
+"nonexistent PPAR variable" = "la variable PPAR n'existe pas";
+"no equation set (nonexistent eq variable)" = "il n'y à pas d'équation (la variable 'eq' n'existe pas)";
+"wrong type of argument" = "l'argument n'a pas le bon type";
+"requires display of a graphic" = "demande la représentation d'un graphique";
+"unsupported arg" = "argument non supporté";
+"unimplemented for binary word size of 32 bits; use smaller word" = "les mots de 32 bits ne sont pas pris en charge; essayez plus petit";
+"incompatible dimensions" = "dimensions incompatibles";
+"unsupported arg type" = "le type de l'argument n'est pas supporté";
+"bad index" = "mauvais indice";
+"zero determinant; cannot divide" = "le determinant est nul; impossible de diviser";
+"zero determinant; cannot compute inverse" = "le determinant est nul; l'inverse ne peut être calculé";
+"bad arg 1: not a matrix" = "mauvais argument en 1: ce n'est pas une matrice";
+"matrix not square" = "la matrice n'est pas carrée";
+"nonexistent ∑DAT" = "∑DAT n'existe pas";
+"bad arg: not a matrix" = "mauvais argument: ce n'est pas une matrice";
+"invalid variable name: " = "le nom de la variable est invalide: ";
+"undefined name: " = "nom non défini: ";
+"wrong parameter" = "mauvais paramètre";
+"invalid unit definition: " = "la définition des unités est invalide: ";
+"unsupported unit definition(s): " = "définition(s) des unités non supporté: ";
+"units do not share the same SI unit" = "les unités ne sont pas toutes en SI";
+"conversion unit(s) not defined." = "conversion des unités non défini";
+"missing delimiter" = "il manque un séparateur";
+"missing expression or program in \u2192 statement" = "il manque une expression ou un programme dans la déclaration \u2192";
+"missing IF" = "il manque un IF";
+"errant ELSE" = "un ELSE traine";
+"errant END" = "un END traine";
+"START lacks the 'from' and/or 'to' values on stack" = "il manque les valeurs de 'from' et/ou 'to' de START";
+"missing START" = "START est manquant";
+"missing END" = "END est manquant";
+"missing ELSE or END" = "un ELSE ou END est manquant";
+"missing REPEAT" = "REPEAT est manquant";
+"missing UNTIL" = "UNTIL est manquant";
+"infiniteLoopEncountered" = "la boucle FOR est infinie";
+"unknown function" = "fonction inconnue";
+"incorrect syntax" = "syntaxe incorrecte";
+"invalidDimensionsForData" = "les dimensions sont invalides";
+"hexDataExpected" = "l'image est sensée être au format hexadecimal";
+"SyntaxErrorInLine" = "(faire 'Tout sélectionner' pour voir où est l'erreur.)\n\nErreur à la ligne: ";
+"resultTooLarge" = "le résultat est trop grand";
+
+/* Tab Bar */
+"CalculatorDefinition" = "Définition";
+"Calculators" = "Calculatrice";
+"ND1 (Classic)" = "ND1 (Classique)";
+"My Data" = "Mes Données";
+
+/* Calculator Details */
+"Type" = "Type";
+"Mode" = "Mode";
+"RPN" = "RPN";
+"Normal" = "Normal";
+"Web Front-end" = "Web";
+"Interactive" = "Interactif";
+"Skin" = "Thème";
+"Light" = "Clair";
+"Dark" = "Foncé";
+"Metal" = "Métal";
+"Custom" = "Custom";
+"Default" = "Défault";
+"Orientation" = "Orientation";
+"Portrait" = "Portrait";
+"Landscape" = "Paysage";
+"Any" = "Any";
+
+"Keys" = "Touches";
+"Interface Elements" = "Elements d'interface";
+"Add Key" = "Ajouter une touche";
+"Add Interface Element" = "Ajouter un Interface Element";
+
+"Menus" = "Menus";
+"Add Menu" = "Ajouter un Menu";
+
+/* Key detail */
+"Key" = "Touche";
+"Name" = "Nom";
+"Function" = "Fonction";
+
+/* Menu detail */
+"Menu" = "Menu";
+"Title" = "Titre";
+"Soft Keys" = "Touches Logicielles";
+"Names" = "Nom";
+"Functions" = "Fonctions";
+
+/* Browse views */
+"CreditsNotes" = "Credits & Notes";
+"Injection" = "Injection";
+"Sharing" = "Partage";
+
+/* Photo view */
+"Photo" = "Photo";
+
+/* User Category */
+"Downloadables" = "Téléchargeables";
+"SharedFolders" = "Dossiers partagés";
+"SharedCalculators" = "Plus Calculatrices";
+"Updates" = "Mises à jour";
+"Available Folders" = "Dossiers disponibles";
+"ReachedFolderDownloadLimit" = "Avec ND0 vous ne pouvez télécharger quelques dossiers.\nPour le téléchargement illimité, s'il vous plaît obtenir ND1.";
+
+/* User Category Add view */
+"Add Category" = "Ajouter un dossier";
+"AddCategoryPlaceholder" = "Nom du dossier";
+
+/* User Category detail view */
+"Entry" = "Entrée";
+"OverviewPlaceholder" = "Description";
+"nEntriesText" = "Entrées:";
+"Entries" = "Entrées";
+"Add Entry" = "Ajouter une entrée";
+
+/* User Data Details */
+"Name" = "Nom";
+"NamePlaceholder" = "Nouveau Nom";
+"Definition" = "Définition";
+"DefinitionPlaceholder" = "Définition (Donnée ou Fonction)";
+"Comment" = "Commentaire";
+"CommentPlaceholder" = "Commentaire";
+
+/* Special var store comments */
+"CurrentEQ" = "Equation actuelle";
+"PlotParams" = "Paramètres graphiques";
+"StatData" = "Données Statistiques";
+"StatParams" = "Paramètre Stat.";
+"Key Icon" = "Icône de touche";
+"Current Equation" = "Equation actuelle";
+"Plot Params" = "Paramètres graphiques";
+"Statistical Data" = "Données Statistiques";
+"Stat. Params" = "Paramètre Stat.";
+
+/* Sharing dialog */
+"Email" = "Courriel";
+"EmailText" = "Hi,\n\nFind attached the data for";
+"ErrorOccurred" = "Une Erreur c'est produite";
+"NoClientID" = "Le Client n'a pas d'ID\n";
+"BadJSON" = "Mauvaise donnée JSON. Corrigez et réessayez.";
+"ResourceNotFound" = "Les données ne sont pas disponible sur le serveur.";
+"PageNotFound" = "Les données ne sont pas disponible sur le serveur.";
+"PleaseUpload" = "Montez d'abord vos données";
+"AlternativeDownload" = "Téléchargement Alternatif";
+"TryPublic" = "Voulez-vous télécharger une version publique de ces données?";
+"VisibleToThePublic" = "Visible au Publique";
+"CustomURL" = "URL de partage custom";
+"Upload" = "Monter";
+"Download" = "Télécharger";
+"DownloadAssets" = "Télécharger les données";
+"CancelDownloadAssets" = "Interompre les téléchargements actifs";
+"LastUploadedOn" = "Monté la dernière fois le";
+"DirectConnect" = "Connection Directe";
+"Restore" = "Rétablir";
+"RestoreCalculator" = "Restaurer la Calculatrice";
+"RestoreWarning" = "Attention: Tous les changements effectués seront perdus!";
+
+/* DB translations */
+"Help" = "Aide";
+"My Skin" = "Mon Thème";
+"Custom Skin" = "Thème perso";
+"My Vars" = "Mes Variables";
+"Default Variable Store" = "Emplacement des Variables par Défault";
+"Project X" = "Projet X";
+"APConstants" = "Constantes AP";
+"Arbitrary Precision Constants" = "Constantes Arbitraires Précision";
+"Demos" = "Démonstrations";
+"Capability Demos" = "Démonstrations de Capacité";
+"Constants" = "Constantes";
+"Physical Constants" = "Les Constantes Physiques";
+"Const" = "Const";
+"Examples" = "Exemples";
+"RPL + JavaScript Programming Examples" = "Exemples de Programmation RPL + JavaScript";
+"From HP-28S User's Manual" = "De Manuel de l'Utilisateur HP-28S";
+"An example collection of data" = "Un example de collecte de données";
+"Stocks" = "Actions";
+"Quotes and Symbols" = "Quotations et Symboles";
+"Units" = "Unités";
+"Units Used for Conversions" = "Unités Utilisées pour les Conversions";
+"Bench" = "Bench";
+"Timing Functions" = "Fonctions de Temporisation";
+"Bills" = "Factures";
+"Sum up your bills" = "Résumez vos Factures";
+"Color" = "Couleur";
+"Color type and functions" = "Type de Couleur et les Fonctions";
+"Chem" = "Chimie";
+"Chemical formula type and functions" = "Type de Formule Chimique";
+"Plot" = "Plot";
+"More Graphing Functions" = "Fonctions Graphiques Plus";
+"Special Functions" = "Fonctions Spéciales";
+"Bessel Functions" = "Fonctions Bessel";
+"Tools" = "Outils";
+"Utility Functions" = "Fonctions Utilitaires";
+
+"Key Icon" = "Icône de touche";
+"Key Icon (pressed)" = "Icône de touche (enfoncé)";
+"Alt-Key Icon" = "Touche Alt";
+"Alt-Key Icon (pressed)" = "Touche Alt (enfoncé)";
+"Background Image" = "Image de fond d'écran";
+"Change this to your URL" = "Changez ça par votre URL";
+"My calculator background" = "Mon fond d'écran";
+

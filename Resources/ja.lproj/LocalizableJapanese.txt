@@ -1,0 +1,249 @@
+"CalcError" = "計算エラー";
+"SyntaxError" = "シンタクスエラー";
+"Message" = "メッセージ";
+"EvalError" = "評価エラー";
+"in line" = "インライン";
+"UnexpectedParenthesisAtPosition" = "括弧の位置が間違っています";
+"CannotGraphExpression" = " 'eq' の式が評価できなかったため、グラフは表示できませんでした。";
+
+"OK" = "OK";
+"No" = "いいえ";
+"Yes" = "はい";
+
+/* Welcome */
+"Welcome" = "ようこそ。";
+"WelcomeMsg" = "";
+"PleaseDoQuickTour" = " \"クイックツアー\" を次のサイトで始めてくださいhttp://naivedesign.com/ND1";
+"Classic" = "クラシック";
+"Modern" = "モダン";
+
+/* ND0 */
+"ND0_Overview" = "RPNグラフ電卓";
+
+/* Tips */
+"GraphingTips" = "グラフのヒント";
+"GraphingTip" = "最下段の左側にある 'Space' キーを押しスタック表示に戻ります。\n\n2本指でドラッグして横にすらします；ズームするには摘む動作をします。\n2本指でタップするとスクリーンショットをとることができます。\nドラッグしてトレースします。タップするとトレースポイントをスタックに追加します。\nダブルタップしてフルスクリーン表示にします。";
+"DefinitionTips" = "電卓定義のヒント";
+"DefinitionTip" = "ここではレイアウトおよび電卓のキーとメニューを変更することができます。\n新しいキーを作成したりキーを削除すると、全体のレイアウトが変更されることに注意してください。\n\n最下段のリストにある'Restore'ボタンを押すと、いつでも元の状態に戻すことができます。";
+"MyDataTips" = "データベースのヒント";
+"MyDataTip" = "ここにデータベースがあります。\nデータベースには、電卓から? (VAR)キーを経由してアクセスします。\nフォルダーを作成したり、内容を編集することができます：編集できる対象は、変数、データ（表、文字列など）、関数、プログラム、アセットです。\nフォルダーを保存したりフォルダー全体をネットワーク経由で共有することができます。";
+"CustomSkinTips" = "スキン変更のヒント";
+"CustomSkinTip" = "スキンを選択しました。\nアイコンを割り当てる必要があります。データベースにある 'My Skin' フォルダーに行って、'Sharing'と 'Download Assets'をタップして、サーバーからアイコンを選択してください。\n準備ができたら、リンクをあなたのリンクに変更し、あなたのアイコンを使用するために、'Download Assets'経由でそれらをダウンロードしてください。";
+
+/* Emailing stack */
+"MyStack" = "マイスタック";
+
+/* Calculator detail view */
+"nEntriesText" = "# エントリー：";
+"Add Calculator" = "電卓を追加";
+
+/* Web View */
+"SwitchingToFullView" = "フル表示に切り替える";
+"DoubleTapToComeBack" = "ダブルタップして電卓に戻ります。\n'Understood' をタップするとこのヒントを再表示しません。";
+"DontTellMeAgain" = "了解";
+
+/* Error msgs */
+"Error" = "エラー";
+"Program execution error" = "プログラム実行エラー";
+"Detail" = "詳細";
+"too few arguments on stack" = "スタック上の引数が不足しています";
+"bad arg" = "不正な引数です";
+"input is not a URL" = "入力がURLではありません";
+"invalid arg" = "不正な引数です";
+"nonexistent PPAR variable" = "PPAR変数が存在しません";
+"no equation set (nonexistent eq variable)" = "eq変数が存在しないため式が設定されませんでした";
+"wrong type of argument" = "引数のタイプが間違っています";
+"requires display of a graphic" = "グラフィックの表示が必要です";
+"unsupported arg" = "サポートされていない引数です";
+"unimplemented for binary word size of 32 bits; use smaller word" = "32ビットのバイナリーワードサイズは実装されていません。小さいワードサｲｽﾞにしてください";
+"incompatible dimensions" = "次数が不一致です";
+"unsupported arg type" = "サポートされていない引数タイプです";
+"bad index" = "不正なインデックスです";
+"zero determinant; cannot divide" = "除数が0です；割り算を実行できません";
+"zero determinant; cannot compute inverse" = "除数が0です；逆数を計算できません";
+"bad arg 1: not a matrix" = "引数１が不正です：行列ではありません";
+"matrix not square" = "正方行列ではありません";
+"nonexistent ∑DAT" = "存在しない ∑DAT";
+"bad arg: not a matrix" = "不正な引数です：行列ではありません";
+"invalid variable name: " = "不正な変数名です：";
+"undefined name: " = "名前が未定義です：";
+"wrong parameter" = "パラメーターが間違っています";
+"invalid unit definition: " = "不正な単位定義です：";
+"unsupported unit definition(s): " = "サポートされていない単位定義です： ";
+"units do not share the same SI unit" = "単位が同じSI単位に基づいていません";
+"conversion unit(s) not defined." = "変換先の単位が未定義です。";
+"missing delimiter" = "区切り文字がありません";
+"missing expression or program in \u2192 statement" = "\u2192 文で式かプログラムがありません";
+"missing IF" = "IFがありません";
+"errant ELSE" = "誤ったELSEです";
+"errant END" = "誤ったENDです";
+"START lacks the 'from' and/or 'to' values on stack" = "STARTが'from' 値もしくは'to' 値をスタックに伴っていません";
+"missing START" = "STARTがありません";
+"missing END" = "ENDがありません";
+"missing ELSE or END" = "ELSEかENDがありません";
+"missing REPEAT" = "REPEATがありません";
+"missing UNTIL" = "UNTILがありません";
+"infiniteLoopEncountered" = "FORの無限ループを検出しました";
+"unknown function" = "関数が未定義です";
+"incorrect syntax" = "シンタクスに誤りがあります";
+"invalidDimensionsForData" = "与えられたデータの次元が不正な値です";
+"hexDataExpected" = "イメージデータには16進フォーマットが期待されています";
+"SyntaxErrorInLine" = "('Select All' を入力しエラー個所を表示してください。)\n\nエラー行：";
+"resultTooLarge" = "結果が大きすぎます";
+
+/* Tab Bar */
+"CalculatorDefinition" = "定義";
+"Calculators" = "電卓";
+"ND1 (Classic)" = "ND1 (クラシック)";
+"My Data" = "マイデータ";
+
+/* Calculator Details */
+"Type" = "タイプ";
+"Mode" = "モード";
+"RPN" = "RPN";
+"Normal" = "ノーマル";
+"Web Front-end" = "ウェブ";
+"Interactive" = "インタラクティブ";
+"Skin" = "スキン";
+"Light" = "ライト";
+"Dark" = "ダーク";
+"Metal" = "メタル";
+"Custom" = "カスタム";
+"Default" = "デフォルト";
+"Orientation" = "オリエンテーション";
+"Portrait" = "縦";
+"Landscape" = "横";
+"Any" = "Any";
+
+"Keys" = "キー";
+"Interface Elements" = "インターフェース要素";
+"Add Key" = "キーの追加";
+"Add Interface Element" = "インターフェース要素の追加";
+
+"Menus" = "メニュー";
+"Add Menu" = "メニューの追加";
+
+/* Key detail */
+"Key" = "キー";
+"Name" = "名称";
+"Function" = "関数";
+
+/* Menu detail */
+"Menu" = "メニュー";
+"Title" = "タイトル";
+"Soft Keys" = "ソフトキー";
+"Names" = "名称";
+"Functions" = "関数";
+
+/* Browse views */
+"CreditsNotes" = "著作権 & 注意事項";
+"Injection" = "挿入";
+"Sharing" = "共有";
+
+/* Photo view */
+"Photo" = "写真";
+
+/* User Category */
+"Downloadables" = "ダウンロード";
+"ShowDownloadables" = "アップデート...";
+
+/* User Category Add view */
+"Add Category" = "フォルダーの追加";
+"AddCategoryPlaceholder" = "フォルダー名称";
+
+/* User Category detail view */
+"Entry" = "エントリー";
+"OverviewPlaceholder" = "説明";
+"nEntriesText" = "エントリー：";
+"Entries" = "エントリー";
+"Add Entry" = "エントリーの追加";
+
+/* User Data Details */
+"Name" = "名称";
+"NamePlaceholder" = "新規名称";
+"Definition" = "定義";
+"DefinitionPlaceholder" = "定義 (データまたは関数 )";
+"Comment" = "コメント";
+"CommentPlaceholder" = "コメント";
+
+/* Special var store comments */
+"Key Icon" = "キーアイコン";
+"Current Equation" = "現在の式";
+"Plot Params" = "描画パラメーター";
+"Statistical Data" = "統計データ";
+"Stat. Params" = "統計パラメーター";
+
+/* Sharing dialog */
+"Email" = "Eメール";
+"EmailText" = "こんにちは、\n\nデータを添付します";
+"ErrorOccurred" = "エラーが発生しました";
+"NoClientID" = "顧客IDがみつかりません\n";
+"BadJSON" = "不正なJSON データです。修正してから再試行してください。";
+"ResourceNotFound" = "データがサーバー上にみつかりません。";
+"PageNotFound" = "データがサーバー上にありません。";
+"PleaseUpload" = "先にデータをアップデートしてください";
+"AlternativeDownload" = "ダウンロードの代替サイト";
+"TryPublic" = "公開版のこのデータのダウンロードを試みますか？";
+"VisibleToThePublic" = "公開されます";
+"CustomURL" = "カスタム共有URL";
+"Upload" = "アップロード";
+"Download" = "ダウンロード";
+"DownloadAssets" = "アセットをダウンロード";
+"CancelDownloadAssets" = "ダウンロードをキャンセル";
+"LastUploadedOn" = "最終更新";
+"DirectConnect" = "直接接続";
+"Restore" = "修復";
+"RestoreCalculator" = "電卓を修復中";
+"RestoreWarning" = "警告：これまでに行ったすべての変更は失われます！";
+
+/* DB translations */
+"Help" = "ヘルプ";
+"My Skin" = "マイスキン";
+"Custom Skin" = "カスタムスキン";
+"My Vars" = "マイ変数";
+"Default Variable Store" = "デフォルト変数ストア";
+"Project X" = "プロジェクトX";
+"An example collection of data" = "サンプルデータ集合";
+"Stocks" = "株";
+"Quotes and Symbols" = "銘柄";
+"Units" = "単位";
+"Units Used for Conversions" = "変換に使用される単位";
+"APConstants" = "AP定数";
+"Arbitrary Precision Constants" = "任意精度定数";
+"Constants" = "定数";
+"Physical Constants" = "物理定数";
+"Const" = "定数";
+"Examples" = "例題";
+"RPL + JavaScript Programming Examples" = "RPL + Javaスクリプトプログラミング例題";
+"From HP-28S User's Manual" = "HP-28S ユーザーズマニュアルより";
+"More Graphing Functions" = "追加のグラフ関数";
+"Bessel Functions" = "ベッセル関数";
+"Tools" = "ツール";
+"Utility Functions" = "ユーティリティ関数";
+"Bench" = "ベンチ";
+"Timing Functions" = "時間関数";
+"Bills" = "請求書";
+"Sum up your bills" = "勘定を合計します";
+"Color" = "カラー";
+"Color type and functions" = "カラータイプと関数";
+"Chem" = "化学";
+"Chemical formula type and functions" = "化学式のタイプと関数";
+"Plot" = "描画";
+"More Graphing Functions" = "追加のグラフ関数";
+"Special Functions" = "スペシャル関数";
+"Bessel Functions" = "ベッセル関数";
+"Programming Speed Tests" = "プログラミング性能テスト";
+"Niven Number Hunt" = "ニーベン数探索";
+
+"Key Icon" = "キーアイコン";
+"Key Icon (pressed)" = "キーアイコン (押された)";
+"Alt-Key Icon" = "Altキーアイコン";
+"Alt-Key Icon (pressed)" = "Altキーアイコン(押された)";
+"Background Image" = "背景イメージ";
+"Change this to your URL" = "これをあなたのURLに変更してください";
+"My calculator background" = "マイ電卓の背景";
+
+"Mortgage" = "不動産";
+"Calculate Payments" = "支払い計算";
+"Unicodes" = "ユニコード";
+"Characters and Codes" = "タイポグラフィー文字とコード";

@@ -1,0 +1,259 @@
+"CalcError" = "Calc Error";
+"SyntaxError" = "Syntax Error";
+"Message" = "Message";
+"EvalError" = "Evaluation Error";
+"in line" = "in line ";
+"UnexpectedParenthesisAtPosition" = "Unexpected parenthesis/bracket at position";
+"CannotGraphExpression" = "Expression in 'eq' doesn't evaluate and cannot be graphed.";
+
+"OK" = "OK";
+"No" = "No";
+"Yes" = "Yes";
+
+"rpn:" = "rpn:";
+"alg:" = "alg:";
+
+/* Welcome */
+"Welcome" = "Welcome.";
+"WelcomeMsg" = "";
+"PleaseDoQuickTour" = "Please do the \"Quick Tour\" at http://naivedesign.com/ND1";
+"Classic" = "Classic";
+"Modern" = "Modern";
+
+/* ND0 */
+"ND0_Overview" = "RPN Graphing Calculator";
+
+/* Tips */
+"GraphingTips" = "Graphing Tips";
+"GraphingTip" = "Tap ✔ to return to stack display.\n\nTwo-finger drag to pan; pinch to zoom.\nTwo-finger tap to take a screenshot.\nDrag to trace. Tap to add trace point to stack.\nDouble-tap to go fullscreen.";
+"DefinitionTips" = "Calculator Definition Tips";
+"DefinitionTip" = "Here you can change the layout and contents of the calculator keys and menus.\nKnow that deleting or creating new keys will change the overall layout.\n\nYou can always revert to the original state by selecting 'Restore' at the bottom of the list.";
+"MyDataTips" = "Database Tips";
+"MyDataTip" = "Here's your database.\nIt's accessed from the calculator via the ⊛ (or VAR) key.\nYou can create and edit folders and their contents: variables, data (tables, text, etc.), functions, programs, assets.\nYou can also save or share entire folders via the network.";
+"CustomSkinTips" = "Custom Skin Tip";
+"CustomSkinTip" = "You selected your own skin.\nYou need some icons now. Go to the 'My Skin' folder in the database, tap 'Sharing' and 'Download Assets', to pick up some icon files from our server.\nWhen you're ready, replace our links with yours to use your own icons, and download them via 'Download Assets'.";
+
+/* Emailing stack */
+"MyStack" = "My Stack";
+
+/* Calculator detail view */
+"# functions:" = "number of functions:";
+"Add Calculator" = "Add Calculator";
+
+/* Web View */
+"SwitchingToFullView" = "Switching to Full View";
+"DoubleTapToComeBack" = "Double-tap to come back to the calculator.\nTap 'Understood' to not see this hint again.";
+"DontTellMeAgain" = "Understood";
+
+/* Error msgs */
+"Error" = "Error";
+"Program execution error" = "Program execution error";
+"Detail" = "Detail";
+"too few arguments on stack" = "too few arguments on stack";
+"incorrect count of arguments on stack" = "incorrect count of arguments on stack";
+"bad arg" = "bad argument";
+"input is not a URL" = "input is not a URL";
+"invalid arg" = "invalid arg";
+"nonexistent PPAR variable" = "nonexistent PPAR variable";
+"no equation set (nonexistent eq variable)" = "no equation set (nonexistent eq variable)";
+"wrong type of argument" = "wrong type of argument";
+"requires display of a graphic" = "requires display of a graphic";
+"unsupported arg" = "unsupported arg";
+"unimplemented for binary word size of 32 bits; use smaller word" = "unimplemented for binary word size of 32 bits; use smaller word";
+"incompatible dimensions" = "incompatible dimensions";
+"unsupported arg type" = "unsupported arg type";
+"bad index" = "bad index";
+"zero determinant; cannot divide" = "zero determinant; cannot divide";
+"zero determinant; cannot compute inverse" = "zero determinant; cannot compute inverse";
+"bad arg 1: not a matrix" = "bad arg 1: not a matrix";
+"matrix not square" = "matrix not square";
+"nonexistent ∑DAT" = "nonexistent ∑DAT";
+"bad arg: not a matrix" = "bad arg: not a matrix";
+"invalid variable name: " = "invalid variable name: ";
+"undefined name: " = "undefined name: ";
+"wrong parameter" = "wrong parameter";
+"invalid unit definition: " = "invalid unit definition: ";
+"unsupported unit definition(s): " = "unsupported unit definition(s): ";
+"units do not share the same SI unit" = "units do not share the same SI unit";
+"conversion unit(s) not defined." = "conversion unit(s) not defined";
+"missing delimiter" = "missing delimiter";
+"missing expression or program in \u2192 statement" = "missing expression or program in \u2192 statement";
+"missing IF" = "missing IF";
+"errant ELSE" = "errant ELSE";
+"errant END" = "errant END";
+"START lacks the 'from' and/or 'to' values on stack" = "START lacks the 'from' and/or 'to' values on stack";
+"missing START" = "missing START";
+"missing END" = "missing END";
+"missing ELSE or END" = "missing ELSE or END";
+"missing REPEAT" = "missing REPEAT";
+"missing UNTIL" = "missing UNTIL";
+"infiniteLoopEncountered" = "infinite FOR loop encountered";
+"unknown function" = "unknown function";
+"incorrect syntax" = "incorrect syntax";
+"invalidDimensionsForData" = "invalid dimensions for given data";
+"hexDataExpected" = "image data expected in hexadecimal format";
+"SyntaxErrorInLine" = "('Select All' and enter again to see error location.)\n\nError in line: ";
+"resultTooLarge" = "result too large";
+"interrupted" = "Eingabe abgebrochen";
+"required '=' missing in natural math definition" = "required '=' missing in natural math definition";
+"missing closing parenthesis in natural math definition" = "missing closing parenthesis in natural math definition";
+
+/* Tab Bar */
+"CalculatorDefinition" = "Definition";
+"Calculators" = "Calculators";
+"ND1 (Classic)" = "ND1 (Classic)";
+"My Data" = "My Data";
+
+/* Calculator Details */
+"Type" = "Type";
+"Mode" = "Mode";
+"RPN" = "RPN";
+"Normal" = "Normal";
+"Web Front-end" = "Web";
+"Interactive" = "Interactive";
+"Skin" = "Skin";
+"Light" = "Light";
+"Dark" = "Dark";
+"Metal" = "Metal";
+"Custom" = "Custom";
+"Default" = "Default";
+"Orientation" = "Orientation";
+"Portrait" = "Portrait";
+"Landscape" = "Landscape";
+"Any" = "Any";
+
+"Keys" = "Keys";
+"Interface Elements" = "Interface Elements";
+"Add Key" = "Add Key";
+"Add Interface Element" = "Add Interface Element";
+
+"Menus" = "Menus";
+"Add Menu" = "Add Menu";
+
+/* Key detail */
+"Key" = "Key";
+"Name" = "Name";
+"Function" = "Function";
+
+/* Menu detail */
+"Menu" = "Menu";
+"Title" = "Title";
+"Soft Keys" = "Soft Keys";
+"Names" = "Names";
+"Functions" = "Functions";
+
+/* Browse views */
+"CreditsNotes" = "Credits & Notes";
+"Injection" = "Injection";
+"Sharing" = "Sharing";
+
+/* Photo view */
+"Photo" = "Photo";
+
+/* User Category */
+"Downloadables" = "Downloadables";
+"SharedFolders" = "Shared Folders";
+"Updates" = "Updates";
+"Available Folders" = "Available Folders";
+"ReachedFolderDownloadLimit" = "You reached the folder download limit in ND0.\nFor unlimited folder downloading, please consider buying ND1.";
+
+/* User Category Add view */
+"Add Category" = "Add Folder";
+"AddCategoryPlaceholder" = "Folder Name";
+
+/* User Category detail view */
+"Entry" = "Entry";
+"OverviewPlaceholder" = "Description";
+"nEntriesText" = "Entries:";
+"Entries" = "Entries";
+"Add Entry" = "Add Entry";
+
+/* User Data Details */
+"Name" = "Name";
+"NamePlaceholder" = "New Name";
+"Definition" = "Definition";
+"DefinitionPlaceholder" = "Definition (Datum or Function)";
+"Comment" = "Comment";
+"CommentPlaceholder" = "Comment";
+
+/* Special var store comments */
+"Key Icon" = "Key Icon";
+"Current Equation" = "Current Equation";
+"Plot Params" = "Plot Params";
+"Statistical Data" = "Statistical Data";
+"Stat. Params" = "Stat. Params";
+
+/* Sharing dialog */
+"Email" = "Email";
+"EmailText" = "Hi,\n\nFind attached the data for";
+"ErrorOccurred" = "An Error Occurred";
+"NoClientID" = "No Client ID\n";
+"BadJSON" = "Bad JSON data. Please correct, then try again.";
+"ResourceNotFound" = "Data not available on server.";
+"PageNotFound" = "Data not available on server.";
+"PleaseUpload" = "please upload data first";
+"AlternativeDownload" = "Alternative Download";
+"TryPublic" = "Do you want to try downloading a public version of this data?";
+"VisibleToThePublic" = "Visible to the Public";
+"CustomURL" = "Custom Sharing URL";
+"Upload" = "Upload";
+"Download" = "Download";
+"DownloadAssets" = "Download Assets";
+"CancelDownloadAssets" = "Cancel Active Downloads";
+"LastUploadedOn" = "Last uploaded on";
+"DirectConnect" = "Direct Connect";
+"Restore" = "Restore";
+"RestoreCalculator" = "Restore Calculator";
+"RestoreWarning" = "Warning: All changes you made will be lost!";
+
+/* DB translations */
+"Help" = "Help";
+"My Skin" = "My Skin";
+"Custom Skin" = "Custom Skin";
+"My Vars" = "My Vars";
+"Default Variable Store" = "Default Variable Store";
+"Project X" = "Projekt X";
+"An example collection of data" = "An example collection of data";
+"Stocks" = "Stocks";
+"Quotes and Symbols" = "Quotes and Symbols";
+"Units" = "Units";
+"Units Used for Conversions" = "Units Used for Conversions";
+"APConstants" = "APConstants";
+"Arbitrary Precision Constants" = "Arbitrary Precision Constants";
+"Constants" = "Constants";
+"Physical Constants" = "Physikalische Konstanten";
+"Const" = "Const";
+"Examples" = "Examples";
+"RPL + JavaScript Programming Examples" = "RPL + JavaScript Programming Examples";
+"From HP-28S User's Manual" = "From HP-28S User's Manual";
+"More Graphing Functions" = "More Graphing Functions";
+"Bessel Functions" = "Bessel Functions";
+"Tools" = "Tools";
+"Utility Functions" = "Utility Functions";
+"Bench" = "Bench";
+"Timing Functions" = "Timing Functions";
+"Bills" = "Bills";
+"Sum up your bills" = "Sum up your bills";
+"Color" = "Color";
+"Color type and functions" = "Color type and functions";
+"Chem" = "Chem";
+"Chemical formula type and functions" = "Chemical formula type and functions";
+"Plot" = "Plot";
+"More Graphing Functions" = "More Graphing Functions";
+"Special Functions" = "Special Functions";
+"Bessel Functions" = "Bessel Functions";
+"Programming Speed Tests" = "Programming Speed Tests";
+"Niven Number Hunt" = "Niven Number Hunt";
+
+"Key Icon" = "Key Icon";
+"Key Icon (pressed)" = "Key Icon (pressed)";
+"Alt-Key Icon" = "Alt-Key Icon";
+"Alt-Key Icon (pressed)" = "Alt-Key Icon (pressed)";
+"Background Image" = "Background Image";
+"Change this to your URL" = "Change this to your URL";
+"My calculator background" = "My calculator background";
+
+"Mortgage" = "Mortgage";
+"Calculate Payments" = "Calculate Payments";
+"Unicodes" = "Unicodes";
+"Characters and Codes" = "Typographic Chars and Codes";
