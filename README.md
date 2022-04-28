@@ -35,9 +35,9 @@ which gives you all divisors for the numbers from 1 to 100, as a list of lists.
 
 Or
 
-    10e14 3311 fibmod
+    1e14 1e5 modfib
     
-which gives you the the 10^14th Fibonacci number mod 3311.
+which gives you the last 5 digits of the 10^14th Fibonacci number. (And uses modular matrix exponentiation internally.)
  
 You can convert units like so
  
@@ -47,11 +47,13 @@ Or create a user function to calculate the side of a triangle, given an angle an
 
     << -> A b c << c^2+b^2-2*b*c*cos(A) sqrt >>
 
+(Where the three inputs have to pre-exist on the stack before this program, designated by << and >>, can be run/eval'ed. The three inputs become variables A, b, and c – that's what the arrow does.)
+
 To calculate 2+2 interactively, you have to type
  
      2 2 +
  
-which may seem strange but follows the same RPN formula.
+which may seem strange and pedestrian but follows the same RPN principle.
 
 ND1 also supports algebraic entry (like "2+2") with a tap on its command line, but honestly, it's not built for that.
 
